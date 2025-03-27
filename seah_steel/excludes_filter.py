@@ -40,7 +40,8 @@ def correctness_metric(example: dspy.Example, prediction: dspy.Prediction, trace
 
 
 # LM 설정
-lm = dspy.LM(model="openai/gpt-4o-2024-11-20",
+lm = dspy.LM( #model="openai/gpt-4o-2024-11-20",
+             model="gpt-4o-mini-2024-07-18",
              api_key="???",
              cache=False # True면 재요청시 전에 뽑았던 로그만 뽑고 LLM 요청은 안보냅니다.
              )
@@ -78,8 +79,9 @@ def_excl_dict = load_json_to_dict(LOCAL_EXEMPTIONS_PATH)
 train_set = prepare_dataset_to_dspy_examples(dataset, def_excl_dict, 0, 50)
 test_set = prepare_dataset_to_dspy_examples(dataset, def_excl_dict, 50, 100)
 total_set = prepare_dataset_to_dspy_examples(dataset, def_excl_dict, 0, 150)
+mini_set = prepare_dataset_to_dspy_examples(dataset, def_excl_dict, 0, 3)
 
-print(train_set[-2])
+# print(train_set[-2])
 
 # 오리지널 프롬트 제작된 부분 정답률
 evaluate_correctness = dspy.Evaluate(
@@ -90,27 +92,34 @@ evaluate_correctness = dspy.Evaluate(
     display_table=True # 실험용 로그
 )
 
-evaluate_correctness(passage_categorizer, devset = test_set)
+# evaluate_correctness(passage_categorizer, devset = test_set)
 # # 50개 시험, 자동 제작 프롬트
 # # 2025/03/26 17:58:54 INFO dspy.evaluate.evaluate: Average Metric: 35 / 50 (70.0%)
 # print(dspy.inspect_history(n=10))
 
+# gpt-4o-mini-2024-07-18 시험
+# 2025/03/27 14:45:42 INFO dspy.evaluate.evaluate: Average Metric: 38 / 50 (76.0%)
+# 124/150 82.66%
+
 # 자동화 프롬트 개선
 # 옵티마이저, MIPROv2
-optimizer = dspy.MIPROv2(
-    metric = correctness_metric,
-    auto = "light" 
-)
+# optimizer = dspy.MIPROv2(
+#     metric = correctness_metric,
+#     auto = "light" 
+# )
 
 # 자동화 최적 프롬트 찾기
-optimized_passage_categorizer = optimizer.compile(
-    passage_categorizer,
-    trainset=train_set,
-    max_bootstrapped_demos=2,
-    requires_permission_to_run=False,
-    minibatch=False
-)
+# optimized_passage_categorizer = optimizer.compile(
+#     passage_categorizer,
+#     trainset=train_set,
+#     max_bootstrapped_demos=2,
+#     requires_permission_to_run=False,
+#     minibatch=False
+# )
 # 2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: Returning best identified program with score 87.5!
+
+# gpt-4o-mini-2024-07-18 시험 (MIPROv2 light)
+# 50개 트레이닝 셋 82.5%, $0.13
 
 # 비용
 cost = sum([x['cost'] for x in lm.history if x['cost'] is not None])  # cost in USD, as calculated by LiteLLM for certain providers
@@ -118,14 +127,20 @@ print("\n\n\n", round(cost, 2),"$")
 # 2.17$ - 7가지 프롬트 자동 실험 (~3분)
 # 8.51$ - 25가지 프롬트 자동 실험 (~6분)
 
+# gpt-4o-mini-2024-07-18 시험 (MIPROv2 light)
+# 50개 트레이닝 셋 82.5%, $0.13
+
 # 좋은 프롬트 저장
-optimized_passage_categorizer.save("optimized_excludes_filter_prompt.json")
+# optimized_passage_categorizer.save("optimized_excludes_filter_prompt_mini.json")
 
 # 꺼내 써보기
 new_passage_categorizer = dspy.ChainOfThought(SteelDataCategorizer)
-new_passage_categorizer.load("optimized_excludes_filter_prompt.json")
-evaluate_correctness(new_passage_categorizer, devset = train_set)
+new_passage_categorizer.load("optimized_excludes_filter_prompt_mini.json")
+evaluate_correctness(new_passage_categorizer, devset = mini_set)
 print(dspy.inspect_history(n=10))
 
 # 122/150, 0.813
 # 126/150, 0.84
+
+# gpt-4o-mini-2024-07-18 시험
+# 123/150 0.82
