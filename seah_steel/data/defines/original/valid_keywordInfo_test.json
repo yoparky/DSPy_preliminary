@@ -1,0 +1,245 @@
+{
+    "C": {
+        "Definition": [
+            "A clear range or numerical standard for the content of carbon (C, Carbon)."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to special equipment and rotating machinery",
+            "Exclude content related to repair welding",
+            "Exclude when included in the formula for calculating CE",
+            "Exclude when no clear numerical value or range is provided'."
+        ]
+    },
+    "C 외 주요 성분": {
+        "Definition": [
+            "A clear range or numerical standard for the main components other than C, including Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude when included in the formula for calculating CE",
+            "Exclude if no clear numerical value or range is provided'."
+        ]
+    },
+    "탄소 당량": {
+        "Definition": [
+            "A clear range or numerical standard or calculation formula for Carbon Equivalent (CE)."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude in cases where no clear numerical value or range is provided'."
+        ]
+    },
+    "성분시험": {
+        "Definition": [
+            "Clear standards or procedures for conducting a chemical composition analysis."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "인장시험": {
+        "Definition": [
+            "Detailed regulations for pass criteria, test procedures, and conditions for tensile tests, expressed in numerical terms."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "굽힘시험": {
+        "Definition": [
+            "A bending test specified numerically for pass criteria or testing procedures and methods",
+            "A test to confirm resistance to bending force by forcibly bending the material'."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "경도시험": {
+        "Definition": [
+            "Numerically specified hardness test pass range and test location where the test was conducted",
+            "A test to confirm the hardness of the material's surface'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to SSC Test'."
+        ]
+    },
+    "충격시험": {
+        "Definition": [
+            "Numerically specified range for pass criteria, testing temperature (℃), and location where the impact test (Toughness Test) was conducted."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to Drop Weight Tear Testing (DWTT)",
+            "Exclude reference directives pointing to sections or provisions'.",
+            "Exclude CTOD test content."
+        ]
+    },
+    "수압시험": {
+        "Definition": [
+            "Numerically specified standards and provisions for hydrostatic testing (Hydrostatic Test)."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to MPQT'."
+        ]
+    },
+    "Bevel Angle": {
+        "Definition": [
+            "Numerically specified standards for bevel (Bevel) and the angle of both ends of the pipe",
+            "Processing shapes for the angles at both ends of the pipe",
+            "A certain angle trimmed at both ends of the pipe (pipe ends) to facilitate welding'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude regulations regarding bevel angles for weld grooves in welded pipes'."
+        ]
+    },
+    "Root Face": {
+        "Definition": [
+            "Numerical criteria for a specific length (root face) trimmed at both ends of the pipe (pipe ends) to facilitate welding",
+            "A specific length trimmed at both ends of the pipe (pipe ends) to facilitate welding'."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "제품 열처리 온도": {
+        "Definition": [
+            "The temperature (Heat Treatment) and holding time for heat treatment, expressed as specific numerical values or ranges, according to the heat treatment method required for the final product's desired properties."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "예열": {
+        "Definition": [
+            "Numerically specified standards for preheating (Preheating) temperature (℃)."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to preheating temperatures for coating processes'."
+        ]
+    },
+    "외경": {
+        "Definition": [
+            "The outer diameter (OD, Outside Diameter) of the pipe, expressed as a numerical range."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude sections on inspection frequency or frequency of measurement for outer diameter (OD)"
+            ,"Exclude cases where clearly specified numerical values are provided solely as single numeric values (i.e., not expressed as a range), regardless of the surrounding context."
+        ]
+    },
+    "진원도": {
+        "Definition": [
+            "Numerical range specified for roundness (Roundness, Peaking)",
+            "Measurement methods for roundness",
+            "Criteria to assess how close a pipe is to a perfect circle'."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "진직도": {
+        "Definition": [
+            "Numerical range for straightness or bending degree (Straightness, Bending degree)",
+            "Criteria to assess how straight a pipe is along its length'."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "두께": {
+        "Definition": [
+            "Numerical range for pipe thickness (Thickness)",
+            "Content related to the frequency of measurement for pipe thickness'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude numerical thickness values that are provided solely as single numeric values used only in simple calculations, regardless of the surrounding context."
+            , "Exclude thickness values that are provided solely as single numeric values (i.e., not expressed as ranges), regardless of the surrounding context."
+            , "Exclude cases where thickness values are indicators used for directional decisions rather than standards"
+            , "Exclude content related to HIC test specimens"
+        ]
+    },
+    "비드높이": {
+        "Definition": [
+            "Numerical values or ranges for the bead height (Bead Height) on the inner/outer surface of pipe welds."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ]
+    },
+    "길이": {
+        "Definition": [
+            "Numerical range for the length of a pipe."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases referring to pipe weights as quantities instead of lengths'."
+        ]
+    },
+    "마킹 위치": {
+        "Definition": [
+            "The exact location for marking information on the pipe surface for quality control and identification purposes."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude duplicated information related to marking content'.",
+            "Exclude content related to H2S MARKING"
+        ]
+    },
+    "마킹 내용": {
+        "Definition": [
+            "The exact information required to be included in markings on pipes."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to SHIPPING MASK"
+        ]
+    },
+    "컬러라인 색상 및 폭": {
+        "Definition": [
+            "Specific provisions for the color (Color Line, Color Code, Color Coding, Color Band, Material Discrimination Color) and width of lines marked on the pipe surface for quality control and identification purposes."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases mentioning colors generically for distinction without specifying particular colors'."
+        ]
+    },
+    "패킹": {
+        "Definition": [
+            "Clearly specified provisions regarding packing to protect pipe ends during transportation and prevent damage",
+            "Packing actions to prevent damage during pipe transport, such as protection of pipe ends'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude general content such as surfaces must be clean and free of rust'."
+        ]
+    },
+    "초음파 검사": {
+        "Definition": [
+            "Numerically specified pass criteria, test locations, frequencies, and procedures for ultrasonic testing (UT)",
+            "Non-destructive testing method using high-frequency sound waves to detect internal metal defects (e.g., cracks, voids)'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to thickness measurement"
+            , "Exclude content related to HIC tests"
+            , "Exclude ultrasonic testing standards for raw materials"
+        ]
+    },
+    "방사선 검사": {
+        "Definition": [
+            "Numerical standards for test locations, frequencies, pass criteria, or storage and management standards related to radiographic testing (RT)",
+            "Non-destructive testing method using X-rays or gamma rays to check internal metal defects through imaging'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to bent structures','Exclude content not regarding standards but implementation whether testing is conducted'."
+        ]
+    },
+    "자성 입자 시험": {
+        "Definition": [
+            "Numerically specified pass criteria, test frequencies, and procedures for Magnetic Particle Testing (MT)",
+            "Non-destructive testing method applying magnetic fields to magnetized metallic surfaces or near surfaces to detect surface and near-surface defects (e.g., cracks, scratches) using magnetic particles'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to Residual Magnetism Testing'."
+        ]
+    },
+    "녹 방지": {
+        "Definition": [
+            "Clearly specified provisions for rust prevention measures, including treatments that prevent metal corrosion",
+            "Actions to protect the metal from rusting'."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude general content such as must not have rust','Exclude cases without specific rust prevention methods'."
+        ]
+    }
+}

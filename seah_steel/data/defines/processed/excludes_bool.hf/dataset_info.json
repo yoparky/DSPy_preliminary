@@ -1,0 +1,28 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "Keyword": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "DemandRef": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Demand": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Evaluation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Boolean": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

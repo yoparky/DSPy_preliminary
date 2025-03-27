@@ -1,0 +1,346 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "tokens": [
+          "BRUSSELS",
+          "1996-08-22"
+        ],
+        "reasoning": "The provided tokens \"BRUSSELS\" and \"1996-08-22\" do not refer to any specific people. \"BRUSSELS\" is a location and \"1996-08-22\" is a date. Therefore, there are no tokens that can be extracted as referring to specific individuals.",
+        "extracted_people": []
+      },
+      {
+        "augmented": true,
+        "tokens": [
+          "The",
+          "European",
+          "Commission",
+          "said",
+          "on",
+          "Thursday",
+          "it",
+          "disagreed",
+          "with",
+          "German",
+          "advice",
+          "to",
+          "consumers",
+          "to",
+          "shun",
+          "British",
+          "lamb",
+          "until",
+          "scientists",
+          "determine",
+          "whether",
+          "mad",
+          "cow",
+          "disease",
+          "can",
+          "be",
+          "transmitted",
+          "to",
+          "sheep",
+          "."
+        ],
+        "reasoning": "The text does not mention any specific individuals but refers to organizations and nationalities. The terms \"European Commission\" and \"German\" refer to entities rather than specific people. Therefore, there are no tokens that refer to specific individuals.",
+        "extracted_people": []
+      },
+      {
+        "augmented": true,
+        "tokens": [
+          "Fischler",
+          "proposed",
+          "EU-wide",
+          "measures",
+          "after",
+          "reports",
+          "from",
+          "Britain",
+          "and",
+          "France",
+          "that",
+          "under",
+          "laboratory",
+          "conditions",
+          "sheep",
+          "could",
+          "contract",
+          "Bovine",
+          "Spongiform",
+          "Encephalopathy",
+          "(",
+          "BSE",
+          ")",
+          "--",
+          "mad",
+          "cow",
+          "disease",
+          "."
+        ],
+        "reasoning": "The token \"Fischler\" refers to a specific person, likely a politician or official involved in proposing measures related to the topic discussed. The other tokens do not refer to specific individuals but rather to countries or diseases. Therefore, \"Fischler\" is the only extracted token that refers to a person.",
+        "extracted_people": [
+          "Fischler"
+        ]
+      },
+      {
+        "augmented": true,
+        "tokens": [
+          "He",
+          "said",
+          "a",
+          "proposal",
+          "last",
+          "month",
+          "by",
+          "EU",
+          "Farm",
+          "Commissioner",
+          "Franz",
+          "Fischler",
+          "to",
+          "ban",
+          "sheep",
+          "brains",
+          ",",
+          "spleens",
+          "and",
+          "spinal",
+          "cords",
+          "from",
+          "the",
+          "human",
+          "and",
+          "animal",
+          "food",
+          "chains",
+          "was",
+          "a",
+          "highly",
+          "specific",
+          "and",
+          "precautionary",
+          "move",
+          "to",
+          "protect",
+          "human",
+          "health",
+          "."
+        ],
+        "reasoning": "The tokenized text mentions \"Franz Fischler,\" who is a specific person referred to in the context of a proposal made by the EU Farm Commissioner. The tokens \"Franz\" and \"Fischler\" are contiguous and refer to the same individual, thus they are extracted as a list of tokens.",
+        "extracted_people": [
+          "Franz",
+          "Fischler"
+        ]
+      },
+      {
+        "tokens": [
+          "Peter",
+          "Blackburn"
+        ],
+        "expected_extracted_people": [
+          "Peter",
+          "Blackburn"
+        ]
+      },
+      {
+        "tokens": [
+          "\"",
+          "We",
+          "do",
+          "n't",
+          "support",
+          "any",
+          "such",
+          "recommendation",
+          "because",
+          "we",
+          "do",
+          "n't",
+          "see",
+          "any",
+          "grounds",
+          "for",
+          "it",
+          ",",
+          "\"",
+          "the",
+          "Commission",
+          "'s",
+          "chief",
+          "spokesman",
+          "Nikolaus",
+          "van",
+          "der",
+          "Pas",
+          "told",
+          "a",
+          "news",
+          "briefing",
+          "."
+        ],
+        "expected_extracted_people": [
+          "Nikolaus",
+          "van",
+          "der",
+          "Pas"
+        ]
+      },
+      {
+        "tokens": [
+          "Germany",
+          "'s",
+          "representative",
+          "to",
+          "the",
+          "European",
+          "Union",
+          "'s",
+          "veterinary",
+          "committee",
+          "Werner",
+          "Zwingmann",
+          "said",
+          "on",
+          "Wednesday",
+          "consumers",
+          "should",
+          "buy",
+          "sheepmeat",
+          "from",
+          "countries",
+          "other",
+          "than",
+          "Britain",
+          "until",
+          "the",
+          "scientific",
+          "advice",
+          "was",
+          "clearer",
+          "."
+        ],
+        "expected_extracted_people": [
+          "Werner",
+          "Zwingmann"
+        ]
+      },
+      {
+        "tokens": [
+          "But",
+          "Fischler",
+          "agreed",
+          "to",
+          "review",
+          "his",
+          "proposal",
+          "after",
+          "the",
+          "EU",
+          "'s",
+          "standing",
+          "veterinary",
+          "committee",
+          ",",
+          "mational",
+          "animal",
+          "health",
+          "officials",
+          ",",
+          "questioned",
+          "if",
+          "such",
+          "action",
+          "was",
+          "justified",
+          "as",
+          "there",
+          "was",
+          "only",
+          "a",
+          "slight",
+          "risk",
+          "to",
+          "human",
+          "health",
+          "."
+        ],
+        "expected_extracted_people": [
+          "Fischler"
+        ]
+      },
+      {
+        "tokens": [
+          "EU",
+          "rejects",
+          "German",
+          "call",
+          "to",
+          "boycott",
+          "British",
+          "lamb",
+          "."
+        ],
+        "expected_extracted_people": []
+      },
+      {
+        "tokens": [
+          "He",
+          "said",
+          "further",
+          "scientific",
+          "study",
+          "was",
+          "required",
+          "and",
+          "if",
+          "it",
+          "was",
+          "found",
+          "that",
+          "action",
+          "was",
+          "needed",
+          "it",
+          "should",
+          "be",
+          "taken",
+          "by",
+          "the",
+          "European",
+          "Union",
+          "."
+        ],
+        "expected_extracted_people": []
+      }
+    ],
+    "signature": {
+      "instructions": "Analyze the provided list of tokenized text and identify any contiguous tokens that refer to specific individuals. If such tokens are found, output them as a list without combining them into a single value. Additionally, provide a step-by-step reasoning to explain the extraction process, including any tokens that do not refer to individuals.",
+      "fields": [
+        {
+          "prefix": "Tokens:",
+          "description": "tokenized text"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Extracted People:",
+          "description": "all tokens referring to specific people extracted from the tokenized text"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "2.6.14",
+      "cloudpickle": "3.0"
+    }
+  }
+}

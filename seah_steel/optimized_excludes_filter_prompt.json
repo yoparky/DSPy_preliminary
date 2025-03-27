@@ -1,0 +1,479 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.2 PIPES DIMENSIONS\n  \n \u2022 Thicknesses\n Pipes for which schedules 10, 40, 80, etc. are specified shall be in accordance with the\n standard ASME B36.10M.\n Pipes for which schedules 5S, 10S, 40S and 80S are specified shall be in accordance\n with the standard ASME B36.19M.\n Unless specified otherwise on the individual Piping Material Class, for non-schedule pipe\n the minimum wall thickness permitted shall be within allowable manufacturing tolerance\n (Mill Tolerance) as below. The pipe wall thickness may be thicker than specified only after\n written approval has been given by COMPANY. Corrosion allowance shall be as per the\n relevant Piping Material Class.\n \u2022 Mill Tolerance\n The mill tolerance on wall thickness shall be as follows:\n o Minus 8 % for diameters 18 and above\n o Minus 12.5 % for diameters up to 16 inches.\n \u2022 Lengths\n Pipe shall preferably be supplied in double random lengths. Single random lengths will be\n accepted where specified in the Job Specification or for small diameter pipes or where\n double random lengths are unavailable.\n The standard pipe lengths shall never be less than:\n o 5.33 m (17.5 ft.) for diameters up to and inclusive of 4 inches\n o 10.51 m (35 ft.) for diameters 6 inches and above.\n However, provided that they are limited to 5% of the total length of the delivery, certain\n sections may have a minimum length equal to half these values.",
+        "keyword": "Length",
+        "definition": [
+          "The numerical range for the length of a pipe."
+        ],
+        "special_rule_include": [
+          "-"
+        ],
+        "special_rule_exclude": [
+          "Exclude cases where the 'length' is related to the weight or number of pipes."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.4 MANUFACTURE\n  \n \u2022 Fabrication of Pipes\n o Seamless Pipes\n Seamless pipes shall be provided for carbon steel and stainless steel pipes with pipe\n diameters ranging from \u00bd inch to 16 inches and from \u00bd inch to 6 inches for duplex\n stainless steel pipes.\n Seamless pipes shall be hot drawn and produced by the plug mill process unless\n specified otherwise in the requisitions issued by the COMPANY.\n TMCP (Thermo Mechanical Control Process) steel shall not be used for fabrication of\n pipe.\n Pilger mill process is not acceptable. However it may be accepted with prior approval\n from COMPANY subject to below limitations:\n \u2022 Ratio of thickness to diameter of pipe is above 10%.\n \u2022 Products are used for straight sections only.\n \u00a7 Material grades are carbon steel or low alloy steel.\n \u00a7 A formal technical audit has been performed by the COMPANY less than six\n months ahead of the purchase order.\n \u00a7 Heat material and product traceability is complete along the full\n manufacturing process starting from the initial ingot. The ingot is coming\n from identified and approved sources.\n \u00a7 Heat treatment sequence shall be approved. Material is delivered in\n quenched and tempered conditions unless otherwise specified. Final heat\n treatment shall be performed simultaneously from inside and outside of the\n pipe.\n \u00a7 Extent of microstructure examination shall be agreed. The extent of the\n examination shall verify that the manufacturing process does not alter the\n microstructure of the product (on its entire length). Such examination will be\n settled and agreed on with the Manufacturer for its frequency, location on\n products for each heat number, batch of treatment and production line.\n \u00a7 Weldability tests are required on material of the supply unless otherwise\n agreed.\n \u00a7 Considering that such heavy wall pipes are due for high pressure service,\n the whole external and internal surfaces are machined as to eliminate all\n defects inherent to the process. Manual grinding is prohibited for that\n purpose.\n \u00a7 External and internal surfaces are then fully inspected by DPI or MPI and are\n free from any linear indication.\n \u00a7 The inspection and test plan shall clearly identify the sequence of operations\n from receiving ingot. Each process production operation, heat treatment,\n surface preparation and nondestructive operation shall be individually and\n sequentially identified by that document.\n \u00a7 Local weld repair on pipe is not allowed.\n o Longitudinally Welded Pipes\n Longitudinal welded pipes can be provided for larger pipe diameters. ERW welding\n process is not acceptable. For carbon steel, the SAW process shall be used\n exclusively. COMPANY approval shall be required for the welding process prior to\n placing the order.\n A weld joint factor of 1.00 shall be guaranteed.\n The weld seam shall also be welded on the inside (back-welded) if the welding\n process used does not ensure:\n \u00a7 Full penetration\n \u00a7 Weld reinforcement of uniform thickness\n \u00a7 Free of appreciable distortion\n The weld seams shall be subjected to full length (100%) radiographic inspection by\n X-ray method onto radiographic films (Fluoroscopic inspection is not acceptable). The\n acceptance standard for radiography shall be in accordance with applicable material\n specification.\n o Jointers\n Circular welds jointers to attain the minimum allowable length are not permitted\n unless authorized by COMPANY on a case by case basis.\n \u2022 Machining\n o Bevels\n Any beveling of the ends of the pipes shall be performed by flame-cutting. The\n process used shall assure the production of clean, square, burr-free bevel cuts.\n Wherever flame-cutting is employed, all oxides and traces of previously melted metal\n shall be removed by grinding or machining. For stainless steel pipe, cutting and\n beveling shall be performed by mechanical means only; flame cutting is not\n permitted.\n o Weld Reinforcement\n The inside reinforcement of the weld must be ground-off over a length of 10cm at\n each end of the pipe and must leave a gradual transition.\n \u2022 Repair of Defects\n Repairs of defects shall be performed in accordance with the applicable material\n specifications and code\/standard, however repair of base metal by welding is not\n permitted.\n \u2022 Marking\n Each length of pipe shall be marked legibly by low stress die-stamping or by engraving or\n by stenciling. Stencil marking shall utilize water insoluble ink. The ink shall not contain any\n harmful metal or metal salts such as zinc, lead or copper which cause corrosive attack on\n heating. Stainless steel piping shall be supplied with permanent marking over the entire\n length.",
+        "keyword": "Marking Details",
+        "definition": [
+          "Identification and quality control information marked onto the pipe."
+        ],
+        "special_rule_include": [
+          "Ensure any mention of 'Commodity Code",
+          "Ident Code shall be marked",
+          "Item Code' is included."
+        ],
+        "special_rule_exclude": [
+          "Exclude content related to SHIPPING MASK"
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": false
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.1 PIPES MATERIALS\n  \n 1. Carbon Steel Pipe\n Carbon steel pipe shall have a maximum carbon content of 0.23 % by ladle analysis or\n 0.25 % by product analysis. Maximum carbon equivalent (CE (IIW)) shall be 0.42 % by\n ladle analysis or 0.44% by product analysis according to the formula:\n CE (IIW) = C + (Mn\/6) + (Cr + Mo + V)\/5 + (Ni + Cu)\/15\n Where Cr, Mo, V and Cu are not shown on the material certificates, the carbon equivalent\n shall be 0.40 % by ladle analysis or 0.42 % by product analysis, as calculated in\n accordance with the formula:\n CE = C + (Mn\/6)\n All carbon steels material shall be impact tested at -29 \u2070C (-20 \u2070F) or at MDMT whichever\n is lower. The test method and acceptance criteria shall meet the ASME B31.3 (paragraph\n 323.3), unless more stringent requirement (including lower impact test temperatures) are\n already required in the product specification. However, carbon steels to API 5L Gr B or to\n ASTM A106 Gr B may not be impact tested if their nominal wall thickness is not above\n 12.7 mm (1\/2 inch).\n 2. Low Temperature Carbon Steel Pipe\n All carbon steel materials for services at low temperatures (i.e., below -29 \u00b0C) shall\n undergo toughness testing in accordance with the requirements of their reference codes\n and standards.\n Impact testing shall be carried out as per ASTM A370 (or ISO 148) at -50 \u00b0F (-46 \u00b0C).\n Impact values shall meet the requirements specified in ASME B31.3.\n The pipe material shall have maximum carbon content of 0.23 % (by ladle analysis),\n unless more restrictive requirement are already required in ASTM specification. The\n manganese content may be increased to 1.30 % max. In that case the carbon equivalent\n (CE IIW) shall be 0.42 % max (ladle) and 0.44 % max (product).\n 3. Austenitic Stainless Steel Pipe\n Type of austenitic stainless steel pipe to be used is specified in the Piping Material\n Classes (mainly ASTM A312 TP304L, A312 TP316L, A312 TP321, or A358 Gr.304L,\n A358 Gr.316L, A358 Gr.321 etc.).\n Stainless steel type 321 and 347 shall have carbon content greater than or equal to\n 0.02%.\n Austenitic stainless steel pipes shall undergo an annealing heat treatment in accordance\n with the corresponding ASTM standards.\n All pipes shall be supplied in the de-scaled, pickled, passivated and solution heat treated\n condition.\n Pipe material shall be \u201cdual stamped to SS316\/316L and SS304\/304L\u201d in accordance with\n as follows:\n o ASTM A312 TP 316\/316L (UNS S31600\/S31603)\n o ASTN A312 TP 304\/304L (UNS S30400\/S30403)\n o ASTM A358 Gr 316\/316L (UNS S31600\/S31603)\n The dual stamped grade provides better mechanical strength and corrosion properties.\n Material shall be subjected to an intergranular corrosion test in accordance with ASTM\n A262 Practice E.\n 4. DUPLEX AND SUPER DUPLEX STAINLESS STEEL PIPE\n Pipe materials shall be in accordance with ASTM A790 Duplex SS (UNS S31803) and\n Super Duplex SS (UNS S32750).\n Duplex and Super Duplex SS material shall comply with the requirements specified in\n PEGS-0710-PIP-020.\n 5. FIBERGLASS \/ GRP PIPE\n All technical requirements for the design, manufacture, testing, and installation of\n fiberglass \/ GRP pipes shall be in conformance with PEGS-0710-PIP-008, PEGS-0710-\n PIP-030, PEGS-0710-PIP-031 and ISO-14692, Manufacturer\u2019s recommendations and\n specific requirements of the Project Particular Specification.\n All fiberglass piping system shall be of low smoke emission and low toxicity types (under\n elevated temperature).\n FRP\/GRP Pipe consists of:\n a. Inside layer (gel coat or liner): This inside layer shall have a resin content of at\n least 70%. The gel coat may be reinforced by C glass cloth or woven polyester. It\n shall be at least 0.5 mm thick.\n b. The resin used shall be free of pigment or other additives.\n c. Intermediate Layers (providing mechanical strength): These layers shall be of\n glass-reinforced thermosetting resin (generally, the same resin shall be used as\n for the gel coat. If not, the resins must be compatible and provide a bonding\n equivalent or better than identical resins). The resin used must be pigment-free.\n d. Outside layer: This generally is made of the same resin (gel coat) used as for the\n intermediate layers However, subject to the COMPANY prior approval, the\n Manufacturer may use a resin containing the following additives:\n i. Pigments (for protection against UV)\n ii. Graphite (to decrease the surface electrical resistivity)\n iii. Antimony oxide or alumina (to enhance the self-extinguishing properties).\n Carbon fiber may also be inserted in outside layer to insure electrical conductivity.\n Resins:\n The only acceptable synthetic thermosetting resins are epoxy resins and vinyl ester\n resins. Isophthalic or orthophthalic polyester resins shall not be used. However, in the\n case of fluids having a high content of especially corrosive chemicals, selection shall be\n made taking into account Manufacturer's recommendations and polyester of the\n isophthalic, orthophthalic or bisphenol type could be eventually considered.\n Glass fibers:\n Two types of glass, having different chemical compositions, can be used to reinforce\n thermosetting resins (they are known as \"C\" glass, and \"E\" glass):\n o Inside Layer\n \"C\" glass is used in the form of light-weight fabrics (30 to 50 g\/m2) to reinforce the gel\n Coat\n o Layer Providing Mechanical Strength\n \u201cE\u201d glass is a reinforcing glass for the layers of composite materials providing\n mechanical strength. It is used in various forms: rovings, mats, fabrics, chopped\n fibers.\n Fabrication:\n All materials and fabrication methods shall comply with API 15LR \u201cSpecification for Low\n Pressure Fiberglass Line Pipe\u201d, and ASTM D2996 \u201cFilament-Wound Fiberglass (Glass\n Fiber-Reinforced Thermosetting-Resin) Pipe\u201d.\n 6. 90\/10 Cu-Ni Pipe\n Copper\/Nickel material shall comply with the requirements as specified in PEGS-0710-\n PIP-012.\n Pipe shall be supplied in the annealed condition. Dimensions shall be in accordance with\n EEMUA publication No 144. Pipe up to and including 14 inches Size shall be seamless.\n Pipe 16 inches Size and larger shall be seamless or welded with all longitudinal weld\n seams being 100 % radiographed as per EEMUA publication No 144, section 2. The\n nominal EEMUA rating for wall thickness sizing shall be 20 bar as a minimum. 100 %\n internal visual inspection shall be performed to confirm the absence of manufacturing\n defects.",
+        "keyword": "C",
+        "definition": [
+          "A clear range or numerical content standard for carbon (C, Carbon)."
+        ],
+        "special_rule_include": [
+          "Output of clear content standards that need to be calculated via formula",
+          "Include only when both C and CE are present and criteria are specified."
+        ],
+        "special_rule_exclude": [
+          "Exclude content related to special equipment and rotating machinery",
+          "Exclude content related to maintenance welding",
+          "Exclude cases where it is part of formulas used to calculate CE",
+          "Exclude cases without clear numerical values or ranges."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.1 PIPES MATERIALS\n  \n 1. Carbon Steel Pipe\n Carbon steel pipe shall have a maximum carbon content of 0.23 % by ladle analysis or\n 0.25 % by product analysis. Maximum carbon equivalent (CE (IIW)) shall be 0.42 % by\n ladle analysis or 0.44% by product analysis according to the formula:\n CE (IIW) = C + (Mn\/6) + (Cr + Mo + V)\/5 + (Ni + Cu)\/15\n Where Cr, Mo, V and Cu are not shown on the material certificates, the carbon equivalent\n shall be 0.40 % by ladle analysis or 0.42 % by product analysis, as calculated in\n accordance with the formula:\n CE = C + (Mn\/6)\n All carbon steels material shall be impact tested at -29 \u2070C (-20 \u2070F) or at MDMT whichever\n is lower. The test method and acceptance criteria shall meet the ASME B31.3 (paragraph\n 323.3), unless more stringent requirement (including lower impact test temperatures) are\n already required in the product specification. However, carbon steels to API 5L Gr B or to\n ASTM A106 Gr B may not be impact tested if their nominal wall thickness is not above\n 12.7 mm (1\/2 inch).\n 2. Low Temperature Carbon Steel Pipe\n All carbon steel materials for services at low temperatures (i.e., below -29 \u00b0C) shall\n undergo toughness testing in accordance with the requirements of their reference codes\n and standards.\n Impact testing shall be carried out as per ASTM A370 (or ISO 148) at -50 \u00b0F (-46 \u00b0C).\n Impact values shall meet the requirements specified in ASME B31.3.\n The pipe material shall have maximum carbon content of 0.23 % (by ladle analysis),\n unless more restrictive requirement are already required in ASTM specification. The\n manganese content may be increased to 1.30 % max. In that case the carbon equivalent\n (CE IIW) shall be 0.42 % max (ladle) and 0.44 % max (product).\n 3. Austenitic Stainless Steel Pipe\n Type of austenitic stainless steel pipe to be used is specified in the Piping Material\n Classes (mainly ASTM A312 TP304L, A312 TP316L, A312 TP321, or A358 Gr.304L,\n A358 Gr.316L, A358 Gr.321 etc.).\n Stainless steel type 321 and 347 shall have carbon content greater than or equal to\n 0.02%.\n Austenitic stainless steel pipes shall undergo an annealing heat treatment in accordance\n with the corresponding ASTM standards.\n All pipes shall be supplied in the de-scaled, pickled, passivated and solution heat treated\n condition.\n Pipe material shall be \u201cdual stamped to SS316\/316L and SS304\/304L\u201d in accordance with\n as follows:\n o ASTM A312 TP 316\/316L (UNS S31600\/S31603)\n o ASTN A312 TP 304\/304L (UNS S30400\/S30403)\n o ASTM A358 Gr 316\/316L (UNS S31600\/S31603)\n The dual stamped grade provides better mechanical strength and corrosion properties.\n Material shall be subjected to an intergranular corrosion test in accordance with ASTM\n A262 Practice E.\n 4. DUPLEX AND SUPER DUPLEX STAINLESS STEEL PIPE\n Pipe materials shall be in accordance with ASTM A790 Duplex SS (UNS S31803) and\n Super Duplex SS (UNS S32750).\n Duplex and Super Duplex SS material shall comply with the requirements specified in\n PEGS-0710-PIP-020.\n 5. FIBERGLASS \/ GRP PIPE\n All technical requirements for the design, manufacture, testing, and installation of\n fiberglass \/ GRP pipes shall be in conformance with PEGS-0710-PIP-008, PEGS-0710-\n PIP-030, PEGS-0710-PIP-031 and ISO-14692, Manufacturer\u2019s recommendations and\n specific requirements of the Project Particular Specification.\n All fiberglass piping system shall be of low smoke emission and low toxicity types (under\n elevated temperature).\n FRP\/GRP Pipe consists of:\n a. Inside layer (gel coat or liner): This inside layer shall have a resin content of at\n least 70%. The gel coat may be reinforced by C glass cloth or woven polyester. It\n shall be at least 0.5 mm thick.\n b. The resin used shall be free of pigment or other additives.\n c. Intermediate Layers (providing mechanical strength): These layers shall be of\n glass-reinforced thermosetting resin (generally, the same resin shall be used as\n for the gel coat. If not, the resins must be compatible and provide a bonding\n equivalent or better than identical resins). The resin used must be pigment-free.\n d. Outside layer: This generally is made of the same resin (gel coat) used as for the\n intermediate layers However, subject to the COMPANY prior approval, the\n Manufacturer may use a resin containing the following additives:\n i. Pigments (for protection against UV)\n ii. Graphite (to decrease the surface electrical resistivity)\n iii. Antimony oxide or alumina (to enhance the self-extinguishing properties).\n Carbon fiber may also be inserted in outside layer to insure electrical conductivity.\n Resins:\n The only acceptable synthetic thermosetting resins are epoxy resins and vinyl ester\n resins. Isophthalic or orthophthalic polyester resins shall not be used. However, in the\n case of fluids having a high content of especially corrosive chemicals, selection shall be\n made taking into account Manufacturer's recommendations and polyester of the\n isophthalic, orthophthalic or bisphenol type could be eventually considered.\n Glass fibers:\n Two types of glass, having different chemical compositions, can be used to reinforce\n thermosetting resins (they are known as \"C\" glass, and \"E\" glass):\n o Inside Layer\n \"C\" glass is used in the form of light-weight fabrics (30 to 50 g\/m2) to reinforce the gel\n Coat\n o Layer Providing Mechanical Strength\n \u201cE\u201d glass is a reinforcing glass for the layers of composite materials providing\n mechanical strength. It is used in various forms: rovings, mats, fabrics, chopped\n fibers.\n Fabrication:\n All materials and fabrication methods shall comply with API 15LR \u201cSpecification for Low\n Pressure Fiberglass Line Pipe\u201d, and ASTM D2996 \u201cFilament-Wound Fiberglass (Glass\n Fiber-Reinforced Thermosetting-Resin) Pipe\u201d.\n 6. 90\/10 Cu-Ni Pipe\n Copper\/Nickel material shall comply with the requirements as specified in PEGS-0710-\n PIP-012.\n Pipe shall be supplied in the annealed condition. Dimensions shall be in accordance with\n EEMUA publication No 144. Pipe up to and including 14 inches Size shall be seamless.\n Pipe 16 inches Size and larger shall be seamless or welded with all longitudinal weld\n seams being 100 % radiographed as per EEMUA publication No 144, section 2. The\n nominal EEMUA rating for wall thickness sizing shall be 20 bar as a minimum. 100 %\n internal visual inspection shall be performed to confirm the absence of manufacturing\n defects.",
+        "keyword": "Carbon Equivalent",
+        "definition": [
+          "A clear range, numerical content standard, or calculation formula for Carbon Equivalent (CE)."
+        ],
+        "special_rule_include": [
+          "Check the range or numerical values for Carbon Equivalent."
+        ],
+        "special_rule_exclude": [
+          "Exclude cases without clear numerical values or ranges."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.1 PIPES MATERIALS\n  \n 1. Carbon Steel Pipe\n Carbon steel pipe shall have a maximum carbon content of 0.23 % by ladle analysis or\n 0.25 % by product analysis. Maximum carbon equivalent (CE (IIW)) shall be 0.42 % by\n ladle analysis or 0.44% by product analysis according to the formula:\n CE (IIW) = C + (Mn\/6) + (Cr + Mo + V)\/5 + (Ni + Cu)\/15\n Where Cr, Mo, V and Cu are not shown on the material certificates, the carbon equivalent\n shall be 0.40 % by ladle analysis or 0.42 % by product analysis, as calculated in\n accordance with the formula:\n CE = C + (Mn\/6)\n All carbon steels material shall be impact tested at -29 \u2070C (-20 \u2070F) or at MDMT whichever\n is lower. The test method and acceptance criteria shall meet the ASME B31.3 (paragraph\n 323.3), unless more stringent requirement (including lower impact test temperatures) are\n already required in the product specification. However, carbon steels to API 5L Gr B or to\n ASTM A106 Gr B may not be impact tested if their nominal wall thickness is not above\n 12.7 mm (1\/2 inch).\n 2. Low Temperature Carbon Steel Pipe\n All carbon steel materials for services at low temperatures (i.e., below -29 \u00b0C) shall\n undergo toughness testing in accordance with the requirements of their reference codes\n and standards.\n Impact testing shall be carried out as per ASTM A370 (or ISO 148) at -50 \u00b0F (-46 \u00b0C).\n Impact values shall meet the requirements specified in ASME B31.3.\n The pipe material shall have maximum carbon content of 0.23 % (by ladle analysis),\n unless more restrictive requirement are already required in ASTM specification. The\n manganese content may be increased to 1.30 % max. In that case the carbon equivalent\n (CE IIW) shall be 0.42 % max (ladle) and 0.44 % max (product).\n 3. Austenitic Stainless Steel Pipe\n Type of austenitic stainless steel pipe to be used is specified in the Piping Material\n Classes (mainly ASTM A312 TP304L, A312 TP316L, A312 TP321, or A358 Gr.304L,\n A358 Gr.316L, A358 Gr.321 etc.).\n Stainless steel type 321 and 347 shall have carbon content greater than or equal to\n 0.02%.\n Austenitic stainless steel pipes shall undergo an annealing heat treatment in accordance\n with the corresponding ASTM standards.\n All pipes shall be supplied in the de-scaled, pickled, passivated and solution heat treated\n condition.\n Pipe material shall be \u201cdual stamped to SS316\/316L and SS304\/304L\u201d in accordance with\n as follows:\n o ASTM A312 TP 316\/316L (UNS S31600\/S31603)\n o ASTN A312 TP 304\/304L (UNS S30400\/S30403)\n o ASTM A358 Gr 316\/316L (UNS S31600\/S31603)\n The dual stamped grade provides better mechanical strength and corrosion properties.\n Material shall be subjected to an intergranular corrosion test in accordance with ASTM\n A262 Practice E.\n 4. DUPLEX AND SUPER DUPLEX STAINLESS STEEL PIPE\n Pipe materials shall be in accordance with ASTM A790 Duplex SS (UNS S31803) and\n Super Duplex SS (UNS S32750).\n Duplex and Super Duplex SS material shall comply with the requirements specified in\n PEGS-0710-PIP-020.\n 5. FIBERGLASS \/ GRP PIPE\n All technical requirements for the design, manufacture, testing, and installation of\n fiberglass \/ GRP pipes shall be in conformance with PEGS-0710-PIP-008, PEGS-0710-\n PIP-030, PEGS-0710-PIP-031 and ISO-14692, Manufacturer\u2019s recommendations and\n specific requirements of the Project Particular Specification.\n All fiberglass piping system shall be of low smoke emission and low toxicity types (under\n elevated temperature).\n FRP\/GRP Pipe consists of:\n a. Inside layer (gel coat or liner): This inside layer shall have a resin content of at\n least 70%. The gel coat may be reinforced by C glass cloth or woven polyester. It\n shall be at least 0.5 mm thick.\n b. The resin used shall be free of pigment or other additives.\n c. Intermediate Layers (providing mechanical strength): These layers shall be of\n glass-reinforced thermosetting resin (generally, the same resin shall be used as\n for the gel coat. If not, the resins must be compatible and provide a bonding\n equivalent or better than identical resins). The resin used must be pigment-free.\n d. Outside layer: This generally is made of the same resin (gel coat) used as for the\n intermediate layers However, subject to the COMPANY prior approval, the\n Manufacturer may use a resin containing the following additives:\n i. Pigments (for protection against UV)\n ii. Graphite (to decrease the surface electrical resistivity)\n iii. Antimony oxide or alumina (to enhance the self-extinguishing properties).\n Carbon fiber may also be inserted in outside layer to insure electrical conductivity.\n Resins:\n The only acceptable synthetic thermosetting resins are epoxy resins and vinyl ester\n resins. Isophthalic or orthophthalic polyester resins shall not be used. However, in the\n case of fluids having a high content of especially corrosive chemicals, selection shall be\n made taking into account Manufacturer's recommendations and polyester of the\n isophthalic, orthophthalic or bisphenol type could be eventually considered.\n Glass fibers:\n Two types of glass, having different chemical compositions, can be used to reinforce\n thermosetting resins (they are known as \"C\" glass, and \"E\" glass):\n o Inside Layer\n \"C\" glass is used in the form of light-weight fabrics (30 to 50 g\/m2) to reinforce the gel\n Coat\n o Layer Providing Mechanical Strength\n \u201cE\u201d glass is a reinforcing glass for the layers of composite materials providing\n mechanical strength. It is used in various forms: rovings, mats, fabrics, chopped\n fibers.\n Fabrication:\n All materials and fabrication methods shall comply with API 15LR \u201cSpecification for Low\n Pressure Fiberglass Line Pipe\u201d, and ASTM D2996 \u201cFilament-Wound Fiberglass (Glass\n Fiber-Reinforced Thermosetting-Resin) Pipe\u201d.\n 6. 90\/10 Cu-Ni Pipe\n Copper\/Nickel material shall comply with the requirements as specified in PEGS-0710-\n PIP-012.\n Pipe shall be supplied in the annealed condition. Dimensions shall be in accordance with\n EEMUA publication No 144. Pipe up to and including 14 inches Size shall be seamless.\n Pipe 16 inches Size and larger shall be seamless or welded with all longitudinal weld\n seams being 100 % radiographed as per EEMUA publication No 144, section 2. The\n nominal EEMUA rating for wall thickness sizing shall be 20 bar as a minimum. 100 %\n internal visual inspection shall be performed to confirm the absence of manufacturing\n defects.",
+        "keyword": "Heat Treatment Temperature",
+        "definition": [
+          "Heat treatment temperature (Heat Treatment) and retention time, expressed in exact numbers or ranges, to match the required properties of the final product."
+        ],
+        "special_rule_include": [
+          "Content adhering to code standards",
+          "Check if regulated test temperature (\u2103) is specified."
+        ],
+        "special_rule_exclude": [
+          "Exclude cases that do not include a regulated test temperature (\u2103) and retention time."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": false
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.1 PIPES MATERIALS\n  \n 1. Carbon Steel Pipe\n Carbon steel pipe shall have a maximum carbon content of 0.23 % by ladle analysis or\n 0.25 % by product analysis. Maximum carbon equivalent (CE (IIW)) shall be 0.42 % by\n ladle analysis or 0.44% by product analysis according to the formula:\n CE (IIW) = C + (Mn\/6) + (Cr + Mo + V)\/5 + (Ni + Cu)\/15\n Where Cr, Mo, V and Cu are not shown on the material certificates, the carbon equivalent\n shall be 0.40 % by ladle analysis or 0.42 % by product analysis, as calculated in\n accordance with the formula:\n CE = C + (Mn\/6)\n All carbon steels material shall be impact tested at -29 \u2070C (-20 \u2070F) or at MDMT whichever\n is lower. The test method and acceptance criteria shall meet the ASME B31.3 (paragraph\n 323.3), unless more stringent requirement (including lower impact test temperatures) are\n already required in the product specification. However, carbon steels to API 5L Gr B or to\n ASTM A106 Gr B may not be impact tested if their nominal wall thickness is not above\n 12.7 mm (1\/2 inch).\n 2. Low Temperature Carbon Steel Pipe\n All carbon steel materials for services at low temperatures (i.e., below -29 \u00b0C) shall\n undergo toughness testing in accordance with the requirements of their reference codes\n and standards.\n Impact testing shall be carried out as per ASTM A370 (or ISO 148) at -50 \u00b0F (-46 \u00b0C).\n Impact values shall meet the requirements specified in ASME B31.3.\n The pipe material shall have maximum carbon content of 0.23 % (by ladle analysis),\n unless more restrictive requirement are already required in ASTM specification. The\n manganese content may be increased to 1.30 % max. In that case the carbon equivalent\n (CE IIW) shall be 0.42 % max (ladle) and 0.44 % max (product).\n 3. Austenitic Stainless Steel Pipe\n Type of austenitic stainless steel pipe to be used is specified in the Piping Material\n Classes (mainly ASTM A312 TP304L, A312 TP316L, A312 TP321, or A358 Gr.304L,\n A358 Gr.316L, A358 Gr.321 etc.).\n Stainless steel type 321 and 347 shall have carbon content greater than or equal to\n 0.02%.\n Austenitic stainless steel pipes shall undergo an annealing heat treatment in accordance\n with the corresponding ASTM standards.\n All pipes shall be supplied in the de-scaled, pickled, passivated and solution heat treated\n condition.\n Pipe material shall be \u201cdual stamped to SS316\/316L and SS304\/304L\u201d in accordance with\n as follows:\n o ASTM A312 TP 316\/316L (UNS S31600\/S31603)\n o ASTN A312 TP 304\/304L (UNS S30400\/S30403)\n o ASTM A358 Gr 316\/316L (UNS S31600\/S31603)\n The dual stamped grade provides better mechanical strength and corrosion properties.\n Material shall be subjected to an intergranular corrosion test in accordance with ASTM\n A262 Practice E.\n 4. DUPLEX AND SUPER DUPLEX STAINLESS STEEL PIPE\n Pipe materials shall be in accordance with ASTM A790 Duplex SS (UNS S31803) and\n Super Duplex SS (UNS S32750).\n Duplex and Super Duplex SS material shall comply with the requirements specified in\n PEGS-0710-PIP-020.\n 5. FIBERGLASS \/ GRP PIPE\n All technical requirements for the design, manufacture, testing, and installation of\n fiberglass \/ GRP pipes shall be in conformance with PEGS-0710-PIP-008, PEGS-0710-\n PIP-030, PEGS-0710-PIP-031 and ISO-14692, Manufacturer\u2019s recommendations and\n specific requirements of the Project Particular Specification.\n All fiberglass piping system shall be of low smoke emission and low toxicity types (under\n elevated temperature).\n FRP\/GRP Pipe consists of:\n a. Inside layer (gel coat or liner): This inside layer shall have a resin content of at\n least 70%. The gel coat may be reinforced by C glass cloth or woven polyester. It\n shall be at least 0.5 mm thick.\n b. The resin used shall be free of pigment or other additives.\n c. Intermediate Layers (providing mechanical strength): These layers shall be of\n glass-reinforced thermosetting resin (generally, the same resin shall be used as\n for the gel coat. If not, the resins must be compatible and provide a bonding\n equivalent or better than identical resins). The resin used must be pigment-free.\n d. Outside layer: This generally is made of the same resin (gel coat) used as for the\n intermediate layers However, subject to the COMPANY prior approval, the\n Manufacturer may use a resin containing the following additives:\n i. Pigments (for protection against UV)\n ii. Graphite (to decrease the surface electrical resistivity)\n iii. Antimony oxide or alumina (to enhance the self-extinguishing properties).\n Carbon fiber may also be inserted in outside layer to insure electrical conductivity.\n Resins:\n The only acceptable synthetic thermosetting resins are epoxy resins and vinyl ester\n resins. Isophthalic or orthophthalic polyester resins shall not be used. However, in the\n case of fluids having a high content of especially corrosive chemicals, selection shall be\n made taking into account Manufacturer's recommendations and polyester of the\n isophthalic, orthophthalic or bisphenol type could be eventually considered.\n Glass fibers:\n Two types of glass, having different chemical compositions, can be used to reinforce\n thermosetting resins (they are known as \"C\" glass, and \"E\" glass):\n o Inside Layer\n \"C\" glass is used in the form of light-weight fabrics (30 to 50 g\/m2) to reinforce the gel\n Coat\n o Layer Providing Mechanical Strength\n \u201cE\u201d glass is a reinforcing glass for the layers of composite materials providing\n mechanical strength. It is used in various forms: rovings, mats, fabrics, chopped\n fibers.\n Fabrication:\n All materials and fabrication methods shall comply with API 15LR \u201cSpecification for Low\n Pressure Fiberglass Line Pipe\u201d, and ASTM D2996 \u201cFilament-Wound Fiberglass (Glass\n Fiber-Reinforced Thermosetting-Resin) Pipe\u201d.\n 6. 90\/10 Cu-Ni Pipe\n Copper\/Nickel material shall comply with the requirements as specified in PEGS-0710-\n PIP-012.\n Pipe shall be supplied in the annealed condition. Dimensions shall be in accordance with\n EEMUA publication No 144. Pipe up to and including 14 inches Size shall be seamless.\n Pipe 16 inches Size and larger shall be seamless or welded with all longitudinal weld\n seams being 100 % radiographed as per EEMUA publication No 144, section 2. The\n nominal EEMUA rating for wall thickness sizing shall be 20 bar as a minimum. 100 %\n internal visual inspection shall be performed to confirm the absence of manufacturing\n defects.",
+        "keyword": "Toughness Tests",
+        "definition": [
+          "Clearly specified numerical pass range and testing temperature (\u2103) items for the Toughness Test, as well as test locations."
+        ],
+        "special_rule_include": [
+          "Output test locations for base material, welds, and HAZ respectively."
+        ],
+        "special_rule_exclude": [
+          "Exclude content related to Drop Weight Tear Testing (DWTT)",
+          "Exclude reference directives that advise referring to sections or provisions",
+          "Exclude CTOD test content."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.2 PIPES DIMENSIONS\n  \n \u2022 Thicknesses\n Pipes for which schedules 10, 40, 80, etc. are specified shall be in accordance with the\n standard ASME B36.10M.\n Pipes for which schedules 5S, 10S, 40S and 80S are specified shall be in accordance\n with the standard ASME B36.19M.\n Unless specified otherwise on the individual Piping Material Class, for non-schedule pipe\n the minimum wall thickness permitted shall be within allowable manufacturing tolerance\n (Mill Tolerance) as below. The pipe wall thickness may be thicker than specified only after\n written approval has been given by COMPANY. Corrosion allowance shall be as per the\n relevant Piping Material Class.\n \u2022 Mill Tolerance\n The mill tolerance on wall thickness shall be as follows:\n o Minus 8 % for diameters 18 and above\n o Minus 12.5 % for diameters up to 16 inches.\n \u2022 Lengths\n Pipe shall preferably be supplied in double random lengths. Single random lengths will be\n accepted where specified in the Job Specification or for small diameter pipes or where\n double random lengths are unavailable.\n The standard pipe lengths shall never be less than:\n o 5.33 m (17.5 ft.) for diameters up to and inclusive of 4 inches\n o 10.51 m (35 ft.) for diameters 6 inches and above.\n However, provided that they are limited to 5% of the total length of the delivery, certain\n sections may have a minimum length equal to half these values.",
+        "keyword": "Thickness",
+        "definition": [
+          "A range in numbers for the pipe's thickness (Thickness)",
+          "Content related to the inspection frequency of pipe thickness."
+        ],
+        "special_rule_include": [
+          "Output statements mentioning compliance with ASME B36.10M."
+        ],
+        "special_rule_exclude": [
+          "Exclude thickness values used in simple calculations,' 'Exclude standalone thickness values not part of ranges,' 'Exclude cases where the thickness indication is used for direction, not regulation,' 'Exclude content related to HIC test specimens."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.1 PIPES MATERIALS\n  \n 1. Carbon Steel Pipe\n Carbon steel pipe shall have a maximum carbon content of 0.23 % by ladle analysis or\n 0.25 % by product analysis. Maximum carbon equivalent (CE (IIW)) shall be 0.42 % by\n ladle analysis or 0.44% by product analysis according to the formula:\n CE (IIW) = C + (Mn\/6) + (Cr + Mo + V)\/5 + (Ni + Cu)\/15\n Where Cr, Mo, V and Cu are not shown on the material certificates, the carbon equivalent\n shall be 0.40 % by ladle analysis or 0.42 % by product analysis, as calculated in\n accordance with the formula:\n CE = C + (Mn\/6)\n All carbon steels material shall be impact tested at -29 \u2070C (-20 \u2070F) or at MDMT whichever\n is lower. The test method and acceptance criteria shall meet the ASME B31.3 (paragraph\n 323.3), unless more stringent requirement (including lower impact test temperatures) are\n already required in the product specification. However, carbon steels to API 5L Gr B or to\n ASTM A106 Gr B may not be impact tested if their nominal wall thickness is not above\n 12.7 mm (1\/2 inch).\n 2. Low Temperature Carbon Steel Pipe\n All carbon steel materials for services at low temperatures (i.e., below -29 \u00b0C) shall\n undergo toughness testing in accordance with the requirements of their reference codes\n and standards.\n Impact testing shall be carried out as per ASTM A370 (or ISO 148) at -50 \u00b0F (-46 \u00b0C).\n Impact values shall meet the requirements specified in ASME B31.3.\n The pipe material shall have maximum carbon content of 0.23 % (by ladle analysis),\n unless more restrictive requirement are already required in ASTM specification. The\n manganese content may be increased to 1.30 % max. In that case the carbon equivalent\n (CE IIW) shall be 0.42 % max (ladle) and 0.44 % max (product).\n 3. Austenitic Stainless Steel Pipe\n Type of austenitic stainless steel pipe to be used is specified in the Piping Material\n Classes (mainly ASTM A312 TP304L, A312 TP316L, A312 TP321, or A358 Gr.304L,\n A358 Gr.316L, A358 Gr.321 etc.).\n Stainless steel type 321 and 347 shall have carbon content greater than or equal to\n 0.02%.\n Austenitic stainless steel pipes shall undergo an annealing heat treatment in accordance\n with the corresponding ASTM standards.\n All pipes shall be supplied in the de-scaled, pickled, passivated and solution heat treated\n condition.\n Pipe material shall be \u201cdual stamped to SS316\/316L and SS304\/304L\u201d in accordance with\n as follows:\n o ASTM A312 TP 316\/316L (UNS S31600\/S31603)\n o ASTN A312 TP 304\/304L (UNS S30400\/S30403)\n o ASTM A358 Gr 316\/316L (UNS S31600\/S31603)\n The dual stamped grade provides better mechanical strength and corrosion properties.\n Material shall be subjected to an intergranular corrosion test in accordance with ASTM\n A262 Practice E.\n 4. DUPLEX AND SUPER DUPLEX STAINLESS STEEL PIPE\n Pipe materials shall be in accordance with ASTM A790 Duplex SS (UNS S31803) and\n Super Duplex SS (UNS S32750).\n Duplex and Super Duplex SS material shall comply with the requirements specified in\n PEGS-0710-PIP-020.\n 5. FIBERGLASS \/ GRP PIPE\n All technical requirements for the design, manufacture, testing, and installation of\n fiberglass \/ GRP pipes shall be in conformance with PEGS-0710-PIP-008, PEGS-0710-\n PIP-030, PEGS-0710-PIP-031 and ISO-14692, Manufacturer\u2019s recommendations and\n specific requirements of the Project Particular Specification.\n All fiberglass piping system shall be of low smoke emission and low toxicity types (under\n elevated temperature).\n FRP\/GRP Pipe consists of:\n a. Inside layer (gel coat or liner): This inside layer shall have a resin content of at\n least 70%. The gel coat may be reinforced by C glass cloth or woven polyester. It\n shall be at least 0.5 mm thick.\n b. The resin used shall be free of pigment or other additives.\n c. Intermediate Layers (providing mechanical strength): These layers shall be of\n glass-reinforced thermosetting resin (generally, the same resin shall be used as\n for the gel coat. If not, the resins must be compatible and provide a bonding\n equivalent or better than identical resins). The resin used must be pigment-free.\n d. Outside layer: This generally is made of the same resin (gel coat) used as for the\n intermediate layers However, subject to the COMPANY prior approval, the\n Manufacturer may use a resin containing the following additives:\n i. Pigments (for protection against UV)\n ii. Graphite (to decrease the surface electrical resistivity)\n iii. Antimony oxide or alumina (to enhance the self-extinguishing properties).\n Carbon fiber may also be inserted in outside layer to insure electrical conductivity.\n Resins:\n The only acceptable synthetic thermosetting resins are epoxy resins and vinyl ester\n resins. Isophthalic or orthophthalic polyester resins shall not be used. However, in the\n case of fluids having a high content of especially corrosive chemicals, selection shall be\n made taking into account Manufacturer's recommendations and polyester of the\n isophthalic, orthophthalic or bisphenol type could be eventually considered.\n Glass fibers:\n Two types of glass, having different chemical compositions, can be used to reinforce\n thermosetting resins (they are known as \"C\" glass, and \"E\" glass):\n o Inside Layer\n \"C\" glass is used in the form of light-weight fabrics (30 to 50 g\/m2) to reinforce the gel\n Coat\n o Layer Providing Mechanical Strength\n \u201cE\u201d glass is a reinforcing glass for the layers of composite materials providing\n mechanical strength. It is used in various forms: rovings, mats, fabrics, chopped\n fibers.\n Fabrication:\n All materials and fabrication methods shall comply with API 15LR \u201cSpecification for Low\n Pressure Fiberglass Line Pipe\u201d, and ASTM D2996 \u201cFilament-Wound Fiberglass (Glass\n Fiber-Reinforced Thermosetting-Resin) Pipe\u201d.\n 6. 90\/10 Cu-Ni Pipe\n Copper\/Nickel material shall comply with the requirements as specified in PEGS-0710-\n PIP-012.\n Pipe shall be supplied in the annealed condition. Dimensions shall be in accordance with\n EEMUA publication No 144. Pipe up to and including 14 inches Size shall be seamless.\n Pipe 16 inches Size and larger shall be seamless or welded with all longitudinal weld\n seams being 100 % radiographed as per EEMUA publication No 144, section 2. The\n nominal EEMUA rating for wall thickness sizing shall be 20 bar as a minimum. 100 %\n internal visual inspection shall be performed to confirm the absence of manufacturing\n defects.",
+        "keyword": "Materials Except C",
+        "definition": [
+          "A clear range or numerical content standard for Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B."
+        ],
+        "special_rule_include": [
+          "Check the specific numerical limits for each of the major elements outside of carbon (Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B)."
+        ],
+        "special_rule_exclude": [
+          "Exclude cases where it is part of formulas used to calculate CE",
+          "Exclude cases without clear numerical values or ranges."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.4 MANUFACTURE\n  \n \u2022 Fabrication of Pipes\n o Seamless Pipes\n Seamless pipes shall be provided for carbon steel and stainless steel pipes with pipe\n diameters ranging from \u00bd inch to 16 inches and from \u00bd inch to 6 inches for duplex\n stainless steel pipes.\n Seamless pipes shall be hot drawn and produced by the plug mill process unless\n specified otherwise in the requisitions issued by the COMPANY.\n TMCP (Thermo Mechanical Control Process) steel shall not be used for fabrication of\n pipe.\n Pilger mill process is not acceptable. However it may be accepted with prior approval\n from COMPANY subject to below limitations:\n \u2022 Ratio of thickness to diameter of pipe is above 10%.\n \u2022 Products are used for straight sections only.\n \u00a7 Material grades are carbon steel or low alloy steel.\n \u00a7 A formal technical audit has been performed by the COMPANY less than six\n months ahead of the purchase order.\n \u00a7 Heat material and product traceability is complete along the full\n manufacturing process starting from the initial ingot. The ingot is coming\n from identified and approved sources.\n \u00a7 Heat treatment sequence shall be approved. Material is delivered in\n quenched and tempered conditions unless otherwise specified. Final heat\n treatment shall be performed simultaneously from inside and outside of the\n pipe.\n \u00a7 Extent of microstructure examination shall be agreed. The extent of the\n examination shall verify that the manufacturing process does not alter the\n microstructure of the product (on its entire length). Such examination will be\n settled and agreed on with the Manufacturer for its frequency, location on\n products for each heat number, batch of treatment and production line.\n \u00a7 Weldability tests are required on material of the supply unless otherwise\n agreed.\n \u00a7 Considering that such heavy wall pipes are due for high pressure service,\n the whole external and internal surfaces are machined as to eliminate all\n defects inherent to the process. Manual grinding is prohibited for that\n purpose.\n \u00a7 External and internal surfaces are then fully inspected by DPI or MPI and are\n free from any linear indication.\n \u00a7 The inspection and test plan shall clearly identify the sequence of operations\n from receiving ingot. Each process production operation, heat treatment,\n surface preparation and nondestructive operation shall be individually and\n sequentially identified by that document.\n \u00a7 Local weld repair on pipe is not allowed.\n o Longitudinally Welded Pipes\n Longitudinal welded pipes can be provided for larger pipe diameters. ERW welding\n process is not acceptable. For carbon steel, the SAW process shall be used\n exclusively. COMPANY approval shall be required for the welding process prior to\n placing the order.\n A weld joint factor of 1.00 shall be guaranteed.\n The weld seam shall also be welded on the inside (back-welded) if the welding\n process used does not ensure:\n \u00a7 Full penetration\n \u00a7 Weld reinforcement of uniform thickness\n \u00a7 Free of appreciable distortion\n The weld seams shall be subjected to full length (100%) radiographic inspection by\n X-ray method onto radiographic films (Fluoroscopic inspection is not acceptable). The\n acceptance standard for radiography shall be in accordance with applicable material\n specification.\n o Jointers\n Circular welds jointers to attain the minimum allowable length are not permitted\n unless authorized by COMPANY on a case by case basis.\n \u2022 Machining\n o Bevels\n Any beveling of the ends of the pipes shall be performed by flame-cutting. The\n process used shall assure the production of clean, square, burr-free bevel cuts.\n Wherever flame-cutting is employed, all oxides and traces of previously melted metal\n shall be removed by grinding or machining. For stainless steel pipe, cutting and\n beveling shall be performed by mechanical means only; flame cutting is not\n permitted.\n o Weld Reinforcement\n The inside reinforcement of the weld must be ground-off over a length of 10cm at\n each end of the pipe and must leave a gradual transition.\n \u2022 Repair of Defects\n Repairs of defects shall be performed in accordance with the applicable material\n specifications and code\/standard, however repair of base metal by welding is not\n permitted.\n \u2022 Marking\n Each length of pipe shall be marked legibly by low stress die-stamping or by engraving or\n by stenciling. Stencil marking shall utilize water insoluble ink. The ink shall not contain any\n harmful metal or metal salts such as zinc, lead or copper which cause corrosive attack on\n heating. Stainless steel piping shall be supplied with permanent marking over the entire\n length.",
+        "keyword": "Heat Treatment Temperature",
+        "definition": [
+          "Heat treatment temperature (Heat Treatment) and retention time, expressed in exact numbers or ranges, to match the required properties of the final product."
+        ],
+        "special_rule_include": [
+          "Content adhering to code standards",
+          "Check if regulated test temperature (\u2103) is specified."
+        ],
+        "special_rule_exclude": [
+          "Exclude cases that do not include a regulated test temperature (\u2103) and retention time."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": false
+      },
+      {
+        "demand": "5.0 REQUIREMENTS FOR PIPE, FLAANGES FITTING AND BOLTING FOR PIPEING\n 5.2 TECHNICAL REQUIREMENTS\n 5.2.2 PIPES\n 5.2.2.3 PIPES ENDS\n  \n \u2022 Plain Ends (or Square)\n Pipes less than 2 inches in diameter and made of carbon steel, stainless steel, copper\n alloys or alloy steel shall be delivered with plain (or square) ends.\n \u2022 Bevel Ends\n Pipes 2 inches or more in diameter and made of carbon steel, stainless steel, copper\n alloys or alloy steel shall be delivered with beveled ends as per the standard ASME\n 16.25.\n \u2022 Threaded Ends\n Threaded pipes connected by couplings shall be supplied with threaded coupling;\n couplings shall be threaded per ASME B1.20.1.\n The ends of galvanized steel pipes up to 2 inches in diameter must be threaded in\n accordance with ASME B1.20.1.\n Threads of galvanized pipes and couplings shall be free of galvanizing.",
+        "keyword": "Bevel Angle",
+        "definition": [
+          "Clearly defined bevel (bevel angle) criteria in numbers, the processing shape of the angles at both pipe ends, 'a certain angle to facilitate welding at both pipe ends."
+        ],
+        "special_rule_include": [
+          "Output content stating compliance with ASME B16.25."
+        ],
+        "special_rule_exclude": [
+          "Exclude provisions related to the bevel angle of weld grooves for welded pipes."
+        ],
+        "common_exclusion_list": [
+          "Fittings",
+          "Flange",
+          "Gasket",
+          "Bolt",
+          "Nut",
+          "Valve",
+          "Seamless",
+          "SMLS",
+          "Alloy",
+          "P No.2 and above",
+          "PMI",
+          "Austenitic",
+          "Stainless",
+          "STS",
+          "Varnish",
+          "socket"
+        ],
+        "raw_material_list": [
+          "slab",
+          "plate",
+          "steel making",
+          "coil",
+          "strips",
+          "material",
+          "filler material"
+        ],
+        "expected_bool": true
+      }
+    ],
+    "signature": {
+      "instructions": "Analyze the provided text in the \"Demand\" field and determine if the specified \"Keyword\" is relevant based on its \"Definition\" and the given contextual rules. Consider the following when making your decision:\n\n1. Examine whether the text aligns with the keyword's definition, including any numerical standards, ranges, or formulas described.\n2. Apply the \"Special Rule Include\" criteria to identify cases where the keyword should be considered relevant and output `True`.\n3. Apply the \"Special Rule Exclude\" criteria to identify cases where the keyword should be considered irrelevant and output `False`.\n4. Check if the text's core content pertains to items in the \"Common Exclusion List\" or \"Raw Material List\"; if so, output `False`.\n5. Exclude cases where the keyword is mentioned only in isolated appendices or references to other materials.\n6. Provide a detailed reasoning that explains your step-by-step evaluation process, ensuring clarity on how the decision was reached.\n\nOutput your decision in the form of a boolean value (`True` or `False`) in the field \"Decision Bool,\" accompanied by an explanation in the field \"Reasoning.",
+      "fields": [
+        {
+          "prefix": "Demand:",
+          "description": "text to look at"
+        },
+        {
+          "prefix": "Keyword:",
+          "description": "proposed category of text"
+        },
+        {
+          "prefix": "Definition:",
+          "description": "definition of the keyword"
+        },
+        {
+          "prefix": "Special Rule Include:",
+          "description": "list of cases to output True"
+        },
+        {
+          "prefix": "Special Rule Exclude:",
+          "description": "list of cases to output False"
+        },
+        {
+          "prefix": "Common Exclusion List:",
+          "description": "list of topics not related to our pipe manufacture"
+        },
+        {
+          "prefix": "Raw Material List:",
+          "description": "list of materials not related to our pipe manufacture"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Decision Bool:",
+          "description": "relationship between keyword and demand"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "2.6.14",
+      "cloudpickle": "3.0"
+    }
+  }
+}

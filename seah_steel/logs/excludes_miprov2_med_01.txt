@@ -1,0 +1,165 @@
+2025/03/26 18:00:15 INFO dspy.teleprompt.mipro_optimizer_v2: 
+RUNNING WITH THE FOLLOWING LIGHT AUTO RUN SETTINGS:
+num_trials: 7
+minibatch: False
+num_candidates: 5
+valset size: 40
+
+2025/03/26 18:00:15 INFO dspy.teleprompt.mipro_optimizer_v2: 
+==> STEP 1: BOOTSTRAP FEWSHOT EXAMPLES <==
+2025/03/26 18:00:15 INFO dspy.teleprompt.mipro_optimizer_v2: These will be used as few-shot example candidates for our program and for creating instructions.
+
+2025/03/26 18:00:15 INFO dspy.teleprompt.mipro_optimizer_v2: Bootstrapping N=5 sets of demonstrations...
+Bootstrapping set 1/5
+Bootstrapping set 2/5
+Bootstrapping set 3/5
+ 20%|█████████████████████████████████████▍                                                                                                                                                     | 2/10 [00:07<00:28,  3.58s/it]
+Bootstrapped 2 full traces after 2 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 4/5
+ 20%|█████████████████████████████████████▍                                                                                                                                                     | 2/10 [00:05<00:22,  2.83s/it]
+Bootstrapped 2 full traces after 2 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 5/5
+ 10%|██████████████████▋                                                                                                                                                                        | 1/10 [00:01<00:12,  1.41s/it]
+Bootstrapped 1 full traces after 1 examples for up to 1 rounds, amounting to 1 attempts.
+2025/03/26 18:00:29 INFO dspy.teleprompt.mipro_optimizer_v2: 
+==> STEP 2: PROPOSE INSTRUCTION CANDIDATES <==
+2025/03/26 18:00:29 INFO dspy.teleprompt.mipro_optimizer_v2: We will use the few-shot examples from the previous step, a generated dataset summary, a summary of the program code, and a randomly selected prompting tip to propose instructions.
+2025/03/26 18:00:40 INFO dspy.teleprompt.mipro_optimizer_v2: 
+Proposing instructions...
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: Proposed Instructions for Predictor 0:
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 0: Output a bool value by looking at the text given in Demand and decide if a keyword is related.
+Base your decision on the provided definition of the keyword. 
+In making your decision, consider the reasoning and context of your decision.
+If the context's core content deals with an item in the provided common_exclusion_list that is not related to our pipe manufacturing, output False.
+If the context's core content deals with an item in the provided raw_material_list that we do not need in our pipe manufacturing, output False.
+If the context indicates that the keyword is related because of an isolated appendix or a reference to another material, output False.
+If your reasoning falls into the provided special_rule_include category, output True.
+If your reasoning falls into the provided special_rule_exclude category, output False.
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 1: Analyze the provided "Demand" text to determine if the specified "Keyword" is relevant to the context. Use the following steps to guide your decision-making process:
+
+1. Refer to the "Definition" of the keyword and assess whether the context in the "Demand" text aligns with this definition.
+2. Check if any conditions listed under "Special Rule Include" apply to the context. If they do, consider the keyword relevant.
+3. Evaluate whether any conditions under "Special Rule Exclude" apply. If they do, consider the keyword irrelevant.
+4. Exclude the context if it focuses on items listed in the "Common Exclusion List" or "Raw Material List," as these topics are unrelated to pipe manufacturing.
+5. Ensure that clear numerical values, ranges, or formulas are present where required by the keyword's definition.
+6. Provide a detailed explanation in the "Reasoning" field, outlining the logical steps used to assess the relevance of the keyword.
+7. Conclude with a boolean value in the "Decision Bool" field, indicating whether the keyword is relevant (`True`) or not (`False`).
+
+Respond with the outputs "Reasoning" and "Decision Bool" based on your analysis.
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 2: Analyze the provided text in the "Demand" field and determine if the specified "Keyword" is relevant based on its "Definition" and the given contextual rules. Consider the following when making your decision:
+
+1. Examine whether the text aligns with the keyword's definition, including any numerical standards, ranges, or formulas described.
+2. Apply the "Special Rule Include" criteria to identify cases where the keyword should be considered relevant and output `True`.
+3. Apply the "Special Rule Exclude" criteria to identify cases where the keyword should be considered irrelevant and output `False`.
+4. Check if the text's core content pertains to items in the "Common Exclusion List" or "Raw Material List"; if so, output `False`.
+5. Exclude cases where the keyword is mentioned only in isolated appendices or references to other materials.
+6. Provide a detailed reasoning that explains your step-by-step evaluation process, ensuring clarity on how the decision was reached.
+
+Output your decision in the form of a boolean value (`True` or `False`) in the field "Decision Bool," accompanied by an explanation in the field "Reasoning.
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 3: You are tasked with evaluating the relevance of a technical keyword in the context of industrial pipe manufacturing. Your role is critical in ensuring compliance with stringent engineering standards. Carefully analyze the provided text under "Demand" and determine if the specified keyword is relevant based on the following criteria:
+
+1. **Understand the Definition**: Begin by understanding the definition of the keyword. Check if the text in "Demand" meets the criteria outlined in the keyword's definition, such as numerical ranges, formulas, or specific technical requirements.
+
+2. **Apply Inclusion Rules**: Consider the scenarios listed in the "Special Rule Include" category. If the reasoning aligns with any of these scenarios, output `True`.
+
+3. **Apply Exclusion Rules**: Check the "Special Rule Exclude" category. If the reasoning aligns with any of these scenarios, output `False`.
+
+4. **Check for Exclusions**:
+   - If the core content of the text involves items from the "Common Exclusion List," output `False`.
+   - If the core content of the text involves items from the "Raw Material List," output `False`.
+   - If the keyword appears relevant only due to an isolated appendix or reference to another material, output `False`.
+
+5. **Provide Reasoning**: Clearly explain your decision-making process step by step in the "Reasoning" output. Reference specific parts of the text in "Demand" and explain how they align or conflict with the keyword's definition, inclusion rules, and exclusion rules.
+
+6. **Output Decision**: Based on your analysis, output a Boolean value (`True` or `False`) under "Decision Bool" to indicate whether the keyword is relevant.
+
+### High-Stakes Scenario:
+Imagine you are part of a team evaluating technical documentation for a high-profile pipeline project. Your analysis will directly impact decisions regarding material selection, safety compliance, and adherence to regulatory standards. A mistake in your evaluation could result in non-compliance, project delays, or safety risks. Use your reasoning and the provided criteria to ensure an accurate and reliable decision.
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 4: Analyze the provided `demand` text to determine whether the specified `keyword` is relevant to the context of pipe manufacturing. Use the `definition` of the keyword as the primary guide to assess its applicability. Incorporate the following steps in your reasoning process:
+
+1. Ensure the core content of the demand aligns with the keyword's definition and does not involve topics from the `common_exclusion_list` or materials from the `raw_material_list`.
+2. Apply the rules in the `special_rule_include` list to identify scenarios where the keyword should be deemed relevant and output True.
+3. Check for conditions in the `special_rule_exclude` list that disqualify the keyword's relevance and output False if any apply.
+4. If the keyword is mentioned in an isolated appendix or as a reference to another material, output False.
+5. Provide a detailed explanation (`reasoning`) of your decision-making process, ensuring clarity and logical consistency.
+
+Finally, output a Boolean value (`decision_bool`) indicating whether the keyword is relevant (True) or not (False).
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: 
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: ==> STEP 3: FINDING OPTIMAL PROMPT PARAMETERS <==
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: We will evaluate the program over a series of trials with different combinations of instructions and few-shot examples to find the optimal combination using Bayesian Optimization.
+
+2025/03/26 18:01:42 INFO dspy.teleprompt.mipro_optimizer_v2: == Trial 1 / 7 - Full Evaluation of Default Program ==
+Average Metric: 33.00 / 40 (82.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.32it/s]
+2025/03/26 18:02:00 INFO dspy.evaluate.evaluate: Average Metric: 33 / 40 (82.5%)
+2025/03/26 18:02:00 INFO dspy.teleprompt.mipro_optimizer_v2: Default program score: 82.5
+
+/opt/anaconda3/lib/python3.12/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+2025/03/26 18:02:00 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 2 / 7 =====
+Average Metric: 33.00 / 40 (82.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:20<00:00,  1.96it/s]
+2025/03/26 18:02:20 INFO dspy.evaluate.evaluate: Average Metric: 33 / 40 (82.5%)
+2025/03/26 18:02:20 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 82.5 with parameters ['Predictor 0: Instruction 1', 'Predictor 0: Few-Shot Set 1'].
+2025/03/26 18:02:20 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5]
+2025/03/26 18:02:20 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 82.5
+2025/03/26 18:02:20 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:02:20 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 3 / 7 =====
+Average Metric: 35.00 / 40 (87.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:26<00:00,  1.52it/s]
+2025/03/26 18:02:46 INFO dspy.evaluate.evaluate: Average Metric: 35 / 40 (87.5%)
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: Best full score so far! Score: 87.5
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 87.5 with parameters ['Predictor 0: Instruction 2', 'Predictor 0: Few-Shot Set 1'].
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5, 87.5]
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 87.5
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:02:46 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 4 / 7 =====
+Average Metric: 33.00 / 40 (82.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:20<00:00,  1.91it/s]
+2025/03/26 18:03:07 INFO dspy.evaluate.evaluate: Average Metric: 33 / 40 (82.5%)
+2025/03/26 18:03:07 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 82.5 with parameters ['Predictor 0: Instruction 4', 'Predictor 0: Few-Shot Set 1'].
+2025/03/26 18:03:07 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5, 87.5, 82.5]
+2025/03/26 18:03:07 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 87.5
+2025/03/26 18:03:07 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:03:07 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 5 / 7 =====
+Average Metric: 34.00 / 40 (85.0%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.48it/s]
+2025/03/26 18:03:34 INFO dspy.evaluate.evaluate: Average Metric: 34 / 40 (85.0%)
+2025/03/26 18:03:34 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 85.0 with parameters ['Predictor 0: Instruction 2', 'Predictor 0: Few-Shot Set 1'].
+2025/03/26 18:03:34 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5, 87.5, 82.5, 85.0]
+2025/03/26 18:03:34 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 87.5
+2025/03/26 18:03:34 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:03:34 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 6 / 7 =====
+Average Metric: 33.00 / 40 (82.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:20<00:00,  1.94it/s]
+2025/03/26 18:03:55 INFO dspy.evaluate.evaluate: Average Metric: 33 / 40 (82.5%)
+2025/03/26 18:03:55 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 82.5 with parameters ['Predictor 0: Instruction 4', 'Predictor 0: Few-Shot Set 3'].
+2025/03/26 18:03:55 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5, 87.5, 82.5, 85.0, 82.5]
+2025/03/26 18:03:55 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 87.5
+2025/03/26 18:03:55 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:03:55 INFO dspy.teleprompt.mipro_optimizer_v2: ===== Trial 7 / 7 =====
+Average Metric: 33.00 / 40 (82.5%): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:23<00:00,  1.69it/s]
+2025/03/26 18:04:19 INFO dspy.evaluate.evaluate: Average Metric: 33 / 40 (82.5%)
+2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: Score: 82.5 with parameters ['Predictor 0: Instruction 0', 'Predictor 0: Few-Shot Set 1'].
+2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: Scores so far: [82.5, 82.5, 87.5, 82.5, 85.0, 82.5, 82.5]
+2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: Best score so far: 87.5
+2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: =======================
+
+
+2025/03/26 18:04:19 INFO dspy.teleprompt.mipro_optimizer_v2: Returning best identified program with score 87.5!
+
+
+
+ 2.17 $

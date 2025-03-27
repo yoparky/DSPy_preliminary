@@ -1,0 +1,509 @@
+{
+    "C": {
+        "Definition": [
+            "A clear range or numerical content standard for carbon (C, Carbon)."
+        ],
+        "Special Rule_Include": [
+            "Output of clear content standards that need to be calculated via formula",
+            "Include only when both C and CE are present and criteria are specified."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to special equipment and rotating machinery",
+            "Exclude content related to maintenance welding",
+            "Exclude cases where it is part of formulas used to calculate CE",
+            "Exclude cases without clear numerical values or ranges."
+        ],
+        "Reference Sections": [
+            "MATERIALS",
+            "Carbon Content",
+            "Carbon Content and Carbon Equivalent''MATERIAL REQUIREMENTS",
+            "Chemical Composition"
+        ],
+        "Korean": "C"
+    },
+    "Materials Except C": {
+        "Definition": [
+            "A clear range or numerical content standard for Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B."
+        ],
+        "Special Rule_Include": [
+            "Check the specific numerical limits for each of the major elements outside of carbon (Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B)."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases where it is part of formulas used to calculate CE",
+            "Exclude cases without clear numerical values or ranges."
+        ],
+        "Reference Sections": [
+            "MATERIALS",
+            "MATERIAL REQUIREMENTS",
+            "Chemical Composition"
+        ],
+        "Korean": "C 외 주요 성분"
+    },
+    "Carbon Equivalent": {
+        "Definition": [
+            "A clear range, numerical content standard, or calculation formula for Carbon Equivalent (CE)."
+        ],
+        "Special Rule_Include": [
+            "Check the range or numerical values for Carbon Equivalent."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases without clear numerical values or ranges."
+        ],
+        "Reference Sections": [
+            "Material Inspection",
+            "Material",
+            "MATERIALS",
+            "MATERIAL REQUIREMENTS",
+            "Chemical Composition"
+        ],
+        "Korean": "탄소 당량"
+    },
+    "Chemical Composition Tests": {
+        "Definition": [
+            "Clear criteria or procedures for conducting chemical composition tests."
+        ],
+        "Special Rule_Include": [
+            "Check clear standards for chemical composition testing."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude standards or procedures for chemical composition tests related to C, other main elements (Si, Mn, P, S, Cu, Ni, Cr, Mo, V, Nb, Ti, B), and Carbon Equivalent."
+        ],
+        "Reference Sections": [
+            "-"
+        ],
+        "Korean": "성분시험"
+    },
+    "Tensile Tests": {
+        "Definition": [
+            "Detailed pass criteria in numerical ranges, as well as test procedures and conditions related to tensile tests."
+        ],
+        "Special Rule_Include": [
+            "Check pass criteria, specimen sampling locations, test frequencies, and references for regulations related to tensile testing."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "-"
+        ],
+        "Korean": "인장시험"
+    },
+    "Bend Tests": {
+        "Definition": [
+            "Detailed pass criteria or procedures and methods are specified in numerical terms for Bend Tests, 'tests to check the resistance to bending forces applied to the materials."
+        ],
+        "Special Rule_Include": [
+            "Check pass criteria, specimen sampling locations, test frequencies, and references for regulations related to bending."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "MECHANICAL PROPERTIES",
+            "Bending Test of Welded Joints"
+        ],
+        "Korean": "굽힘시험"
+    },
+    "Hardness Tests": {
+        "Definition": [
+            "Numerically specified pass ranges and test locations for Hardness Tests, 'tests to verify the hardness on surfaces of materials."
+        ],
+        "Special Rule_Include": [
+            "Highlight pass criteria (HB, HV, HRB, HRC, HBN)",
+            "Output test locations for base material, welds, and HAZ respectively."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to SSC tests."
+        ],
+        "Reference Sections": [
+            "MECHANICAL PROPERTIES",
+            "Hardness Test",
+            "Materials",
+            "HARDNESS TESTING",
+            "Hardness",
+            "Hardness Testing",
+            "Upper Hardness Limits"
+        ],
+        "Korean": "경도시험"
+    },
+    "Toughness Tests": {
+        "Definition": [
+            "Clearly specified numerical pass range and testing temperature (℃) items for the Toughness Test, as well as test locations."
+        ],
+        "Special Rule_Include": [
+            "Output test locations for base material, welds, and HAZ respectively."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to Drop Weight Tear Testing (DWTT)",
+            "Exclude reference directives that advise referring to sections or provisions",
+            "Exclude CTOD test content."
+        ],
+        "Reference Sections": [
+            "PIPING MATERIALS AND DESIGN SPECIFICATIONS",
+            "DESIGN",
+            "Requirements",
+            "Materials",
+            "Impact Testing"
+        ],
+        "Korean": "충격시험"
+    },
+    "Hydrostatic Tests": {
+        "Definition": [
+            "Clearly specified standards and items in numerical terms for the Hydrostatic Test."
+        ],
+        "Special Rule_Include": [
+            "Output standards like XX MPa or 10 seconds",
+            "Output formulas for pressure calculations, specified minimum yield strength ratios, and retention time."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to MPQT."
+        ],
+        "Reference Sections": [
+            "HYDROSTATIC TESTS",
+            "Hydrotest Requirements"
+        ],
+        "Korean": "수압시험"
+    },
+    "Bevel Angle": {
+        "Definition": [
+            "Clearly defined bevel (bevel angle) criteria in numbers, the processing shape of the angles at both pipe ends, 'a certain angle to facilitate welding at both pipe ends."
+        ],
+        "Special Rule_Include": [
+            "Output content stating compliance with ASME B16.25."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude provisions related to the bevel angle of weld grooves for welded pipes."
+        ],
+        "Reference Sections": [
+            "ENDS",
+            "REQUIREMENT FOR PIPE",
+            "End Connection"
+        ],
+        "Korean": "Bevel Angle"
+    },
+    "Root Face": {
+        "Definition": [
+            "Clearly defined criteria in numbers for a certain length (root face) processed to facilitate welding at pipe ends, 'a certain length processed to facilitate welding at both pipe ends."
+        ],
+        "Special Rule_Include": [
+            "Output content stating compliance with ASME B16.25."
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "ENDS",
+            "REQUIREMENT FOR PIPE",
+            "End Connection"
+        ],
+        "Korean": "Root Face"
+    },
+    "Heat Treatment Temperature": {
+        "Definition": [
+            "Heat treatment temperature (Heat Treatment) and retention time, expressed in exact numbers or ranges, to match the required properties of the final product."
+        ],
+        "Special Rule_Include": [
+            "Content adhering to code standards",
+            "Check if regulated test temperature (℃) is specified."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases that do not include a regulated test temperature (℃) and retention time."
+        ],
+        "Reference Sections": [
+            "MATERIALS",
+            "Heat Treatment",
+            "HEAT TREATMENT',"
+        ],
+        "Korean": "제품 열처리 온도"
+    },
+    "Preheating": {
+        "Definition": [
+            "Preheating (Preheating) temperature (℃) specified in numerical terms."
+        ],
+        "Special Rule_Include": [
+            "Check if regulated test temperature (℃) is specified",
+            "Check for content related to welding preheating."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to preheating temperatures for coating processes."
+        ],
+        "Reference Sections": [
+            "PREHEATING",
+            "Preheat"
+        ],
+        "Korean": "예열"
+    },
+    "Design Dimensions": {
+        "Definition": [
+            "A range in numbers for the outer diameter (OD, Outside Diameter) of the pipe."
+        ],
+        "Special Rule_Include": [
+            "Output statements mentioning compliance with ASME B36.10M."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude contents related to inspection or measurement frequencies for OD",
+            "Exclude specifications given as standalone numerical values without ranges."
+        ],
+        "Reference Sections": [
+            "DESIGN",
+            "Pipe Dimensions and Tolerance",
+            "Large bore allowable tolerance",
+            "Basic technical requirements of pipes"
+        ],
+        "Korean": "외경"
+    },
+    "Circularity": {
+        "Definition": [
+            "A range in numbers for roundness (Roundness, Peaking)",
+            "Measurement methods for roundness",
+            "Criteria for how close the pipe is to being circular."
+        ],
+        "Special Rule_Include": [
+            "-"
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "Basic technical requirements of pipes",
+            "General requirements",
+            "Acceptance Criteria",
+            "Dimensions, Mass and Tolerances"
+        ],
+        "Korean": "진원도"
+    },
+    "Straightness": {
+        "Definition": [
+            "A range in numbers for straightness (Straightness, Bending degree)",
+            "Criteria for how straight the pipe is along its length."
+        ],
+        "Special Rule_Include": [
+            "-"
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "Basic technical requirements of pipes",
+            "General requirements",
+            "Bending degree"
+        ],
+        "Korean": "진직도"
+    },
+    "Thickness": {
+        "Definition": [
+            "A range in numbers for the pipe's thickness (Thickness)",
+            "Content related to the inspection frequency of pipe thickness."
+        ],
+        "Special Rule_Include": [
+            "Output statements mentioning compliance with ASME B36.10M."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude thickness values used in simple calculations,' 'Exclude standalone thickness values not part of ranges,' 'Exclude cases where the thickness indication is used for direction, not regulation,' 'Exclude content related to HIC test specimens."
+        ],
+        "Reference Sections": [
+            "DESIGN",
+            "Pipe Dimensions and Tolerance",
+            "Design Limits and Pipe Wall Thickness",
+            "Pipe Wall Thickness Calculation Principle",
+            "Mill Tolerance"
+        ],
+        "Korean": "두께"
+    },
+    "Bead Height": {
+        "Definition": [
+            "Numerical values or ranges for the bead height (Bead Height) that protrudes on the inner or outer surface of the pipe weld."
+        ],
+        "Special Rule_Include": [
+            "-"
+        ],
+        "Special Rule_Exclude": [
+            "-"
+        ],
+        "Reference Sections": [
+            "Basic technical requirements of pipes",
+            "Performance Requirements",
+            "Surface Quality",
+            "Acceptance Criteria",
+            "Tolerances for the Weld Seam"
+        ],
+        "Korean": "비드높이"
+    },
+    "Length": {
+        "Definition": [
+            "The numerical range for the length of a pipe."
+        ],
+        "Special Rule_Include": [
+            "-"
+        ],
+        "Special Rule_Exclude": [
+            "Exclude cases where the 'length' is related to the weight or number of pipes."
+        ],
+        "Reference Sections": [
+            "DESIGN",
+            "LENGTH",
+            "Pipe Dimensions and Tolerance"
+        ],
+        "Korean": "길이"
+    },
+    "Marking Location": {
+        "Definition": [
+            "The specific location on the pipe surface where certain information is marked for quality control and identification."
+        ],
+        "Special Rule_Include": [
+            "Check exact marking locations such as inside, outside, end."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude duplicate information related to marking content.",
+            "Exclude content related to H2S MARKING"
+        ],
+        "Reference Sections": [
+            "PIPE",
+            "Marking Location",
+            "MARKING LOCATION",
+            "MARKING OF PIPES",
+            "Marking Location & Detail",
+            "MARKING"
+        ],
+        "Korean": "마킹 위치"
+    },
+    "Marking Details": {
+        "Definition": [
+            "Identification and quality control information marked onto the pipe."
+        ],
+        "Special Rule_Include": [
+            "Ensure any mention of 'Commodity Code",
+            "Ident Code shall be marked",
+            "Item Code' is included."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to SHIPPING MASK"
+        ],
+        "Reference Sections": [
+            "PIPE",
+            "MARKING DETAILS",
+            "Product Marking",
+            "Marking of Pipes",
+            "MARKING"
+        ],
+        "Korean": "마킹 내용"
+    },
+    "Color Line and Width": {
+        "Definition": [
+            "The color line (Color Line, Color Code, Color Coding, Color Band, Material Discrimination Color) and width clearly specified for quality control and identification on the pipe surface."
+        ],
+        "Special Rule_Include": [
+            "Refer to graphical or textual representation for color line colors.",
+            "Refer to figures or general statements for color line widths."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude mentions of color differentiation without specific colors being indicated."
+        ],
+        "Reference Sections": [
+            "COLOR IDENTIFICATION METHOD",
+            "Material Discrimination Color",
+            "Material Identification Colour"
+        ],
+        "Korean": "컬러라인 색상 및 폭"
+    },
+    "Packing": {
+        "Definition": [
+            "Accurate provisions for packing (Packing) to prevent damage to pipes during transportation, 'protective measures taken on pipe ends or during transit."
+        ],
+        "Special Rule_Include": [
+            "Output requirements for pipe packing such as steel bands, skid bundles, wooden cases, individual units, etc."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude general provisions (e.g., pipes must be clean, free of rust, etc.), 'Exclude cases without clear anti-rust method details."
+        ],
+        "Reference Sections": [
+            "PACKING",
+            "Packing Style Criteria",
+            "PREPARATION FOR SHIPMENT",
+            "Protection"
+        ],
+        "Korean": "패킹"
+    },
+    "Ultrasonic Testing": {
+        "Definition": [
+            "Requirements in terms of test locations or frequencies, numerical pass criteria, or methods related to Ultrasonic Testing (UT)",
+            "A non-destructive testing method using high-frequency sound waves to detect internal defects (e.g., cracks, pores) in metals."
+        ],
+        "Special Rule_Include": [
+            "Check requirements for detecting defects within pipes','Output if ultrasonic testing is conducted according to ASTM specifications."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to thickness measurement,' 'Exclude content related to HIC TEST,' 'Exclude standards for ultrasonic testing of raw materials."
+        ],
+        "Reference Sections": [
+            "Pipe Manufacturing",
+            "WELDING AND NDE OF PIPING SYSTEMS",
+            "NDE and Testing",
+            "Ultrasonic Examination",
+            "Inspection and Testing",
+            "Non Destructive Testing (NDT)",
+            "Ultrasonic Inspection"
+        ],
+        "Korean": "초음파 검사"
+    },
+    "Radiographic Testing": {
+        "Definition": [
+            "Requirements for test locations, frequencies, numerical pass criteria, or storage and management standards related to Radiographic Testing (RT)",
+            "A non-destructive testing method using X-rays or gamma rays to visualize internal defects in metals."
+        ],
+        "Special Rule_Include": [
+            "-"
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to bending structures,' 'Exclude mentioning the implementation itself without standards."
+        ],
+        "Reference Sections": [
+            "INSPECTION",
+            "WELDING AND NDE OF PIPING SYSTEMS",
+            "NDE and Testing",
+            "Radiography Examination",
+            "Inspection and Testing",
+            "Non Destructive Testing (NDT)",
+            "Radiography Inspection"
+        ],
+        "Korean": "방사선 검사"
+    },
+    "Magnetic Particle Testing": {
+        "Definition": [
+            "The test method, frequency, locations, frequencies, or numerical pass ranges for Magnetic Particle Testing (MT)",
+            "A testing method to detect surface or near-surface defects (e.g., cracks, scratches) in magnetic metals by applying a magnetic field and magnetic particles."
+        ],
+        "Special Rule_Include": [
+            "Output implementation details as it is not a commonly performed test."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude content related to residual magnetism testing."
+        ],
+        "Reference Sections": [
+            "Non-Destructive Testing (NDT)",
+            "Magnetic Particle Inspection (MPI)",
+            "Inspection and Testing",
+            "Non Destructive Testing (NDT)",
+            "Magnetic Particle Inspection"
+        ],
+        "Korean": "자성 입자 시험"
+    },
+    "Rust Prevention": {
+        "Definition": [
+            "Clearly specified provisions for methods of rust prevention (Rust Prevention), 'measures to protect metals from corrosion."
+        ],
+        "Special Rule_Include": [
+            "Check for clear anti-rust criteria (anti-rust period, anti-rust methods)','Details of specific rust prevention methods."
+        ],
+        "Special Rule_Exclude": [
+            "Exclude general provisions (e.g., pipes must be free of rust, etc.), 'Exclude cases without specific methods of rust prevention."
+        ],
+        "Reference Sections": [
+            "DESIGN",
+            "REQUIREMENTS",
+            "PREPARATION FOR SHIPMENT",
+            "Protection"
+        ],
+        "Korean": "녹 방지"
+    }
+}
